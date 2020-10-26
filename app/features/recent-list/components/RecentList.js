@@ -90,7 +90,7 @@ class RecentList extends Component<Props, *> {
                     { conference.room }
                 </ConferenceTitle>
                 <TruncatedText>
-                    { this._renderServerURL(conference.serverURL) }
+                    SkyMakeServer Version 4
                 </TruncatedText>
                 <TruncatedText>
                     { this._renderStartTime(conference) }

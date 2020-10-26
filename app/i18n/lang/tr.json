@@ -1,0 +1,39 @@
+{
+	"enterConferenceNameOrUrl": "Konferans Güvenlik Kodunu Girin.",
+	"go": "Git",
+	"help": "Yardım",
+	"termsLink": "Koşullar",
+	"privacyLink": "Gizlilik",
+	"sendFeedbackLink": "Geribildirim Gönder",
+	"aboutLink": "Hakkında",
+	"sourceLink": "Kaynak Kodu",
+	"versionLabel": "Version: {{version}}",
+	"onboarding": {
+		"startTour": "Turu Başlat",
+		"skip": "Atla",
+		"welcome": "SkyMake Desktop'a Hoşgeldiniz",
+		"letUsShowYouAround": "Hadi sana etrafı göstereyim.",
+		"next": "İleri",
+		"conferenceUrl": "SkyMake'deki canlı bağlantı URL'lerini veya güvenlik kodlarını yapıştırın.",
+		"settingsDrawerButton": "Ayarları Gösterin",
+		"nameSetting": "Başkalarının göreceği isminiz.",
+		"emailSetting": "E-Posta adresiniz de profilinizin bir parçası olacak.",
+		"startMutedToggles": "Mikrofonunuz veya kameranızın ilk katıldığınızda kapalı olmasını sağlayabilirsiniz.",
+		"serverSetting": "Sunucu adınız. Kuruluşunuz tarafından sağlanmadığı sürece değiştirmeyin.",
+		"serverTimeout": "Toplantıya yeterince süre içinde katılmazsanız iptal edebilirsiniz.",
+		"alwaysOnTop": " \"always-on-top\" özelliğini açarak toplanının sürekli ekranın üstünde kalmasını sağlayabilirsiniz."
+	},
+	"settings": {
+		"back": "Geri",
+		"name": "İsim",
+		"email": "E-Posta",
+		"advancedSettings": "Gelişmiş Ayarlar",
+		"alwaysOnTopWindow": "Hep Üstte",
+		"startWithAudioMuted": "Ses kapalı katıl.",
+		"startWithVideoMuted": "Kamera kapalı katıl.",
+		"invalidServer": "Hatalı bağlantı yanıtı.",
+		"invalidServerTimeout": "Geçersiz değer.",
+		"serverUrl": "LiveConnect URL:",
+		"serverTimeout": "Bağlantı Zaman Aşımı"
+	}
+}

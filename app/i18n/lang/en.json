@@ -1,5 +1,5 @@
 {
-	"enterConferenceNameOrUrl": "Enter a name for your conference or a Jitsi URL",
+	"enterConferenceNameOrUrl": "Enter your connection token or URL shown in SkyMake Web Interface",
 	"go": "GO",
 	"help": "Help",
 	"termsLink": "Terms",
@@ -11,10 +11,10 @@
 	"onboarding": {
 		"startTour": "Start Tour",
 		"skip": "Skip",
-		"welcome": "Welcome to {{appName}}",
+		"welcome": "Welcome to Skyfallen SkyMake Desktop",
 		"letUsShowYouAround": "Let us show you around!",
 		"next": "Next",
-		"conferenceUrl": "Enter the name (or full URL) of the room you want to join. You may make a name up, just let others know so they enter the same name.",
+		"conferenceUrl": "Enter the connection token (or full URL) of the room you want to join.",
 		"settingsDrawerButton": "Click here to open the settings drawer.",
 		"nameSetting": "This will be your display name, others will see you with this name.",
 		"emailSetting": "The email you enter here will be part of your user profile.",
@@ -33,7 +33,7 @@
 		"startWithVideoMuted": "Start with Video muted",
 		"invalidServer": "Invalid Server URL",
 		"invalidServerTimeout": "Invalid value for Server Timeout",
-		"serverUrl": "Server URL",
+		"serverUrl": "LiveConnect URL:",
 		"serverTimeout": "Server Timeout (in seconds)"
 	}
 }

@@ -35,20 +35,15 @@ class HelpButton extends Component<*, State> {
         };
 
         this._onAboutClick = openExternalLink.bind(undefined, config.aboutURL);
-        this._onSourceClick = openExternalLink.bind(undefined, config.sourceURL);
         this._onIconClick = this._onIconClick.bind(this);
         this._onOpenChange = this._onOpenChange.bind(this);
         this._onPrivacyClick
             = openExternalLink.bind(undefined, config.privacyPolicyURL);
-        this._onTermsClick
-            = openExternalLink.bind(undefined, config.termsAndConditionsURL);
         this._onSendFeedbackClick
             = openExternalLink.bind(undefined, config.feedbackURL);
     }
 
     _onAboutClick: (*) => void;
-
-    _onSourceClick: (*) => void;
 
     _onIconClick: (*) => void;
 
@@ -97,10 +92,7 @@ class HelpButton extends Component<*, State> {
                 onOpenChange = { this._onOpenChange }
                 position = 'right bottom'
                 trigger = { <HelpIcon /> }>
-                <Group heading = { t('help') } >
-                    <Item onActivate = { this._onTermsClick }>
-                        { t('termsLink') }
-                    </Item>
+                <Group heading = 'Skyfallen SkyMake Desktop' >
                     <Item onActivate = { this._onPrivacyClick }>
                         { t('privacyLink') }
                     </Item>
@@ -109,9 +101,6 @@ class HelpButton extends Component<*, State> {
                     </Item>
                     <Item onActivate = { this._onAboutClick }>
                         { t('aboutLink') }
-                    </Item>
-                    <Item onActivate = { this._onSourceClick }>
-                        { t('sourceLink') }
                     </Item>
                     <Item>
                         { t('versionLabel', { version }) }
